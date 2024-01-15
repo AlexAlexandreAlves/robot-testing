@@ -13,3 +13,7 @@
 ### Run a single test case into test file
 
 `robot -d {path} -t "CT001: Exemplo de teste" test-file.robot`    
+
+### Run with a custom module in your project
+
+`python -m robot -d {path} -t "CT001: Exemplo de teste" test-file.robot`    
