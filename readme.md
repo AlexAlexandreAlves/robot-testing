@@ -1,5 +1,15 @@
 ### Run all tests
-    `robot.`
+
+`robot.`
 
 ### Run a single test
-    `robot {path}/file-example.robot`
+
+`robot {path}/file-example.robot`
+
+### Run and create a test result folder
+
+`robot ./result -t {path}/file-example.robot`    
+
+### Run a single test case into test file
+
+`robot -d {path} -t "CT001: Exemplo de teste" test-file.robot`    
