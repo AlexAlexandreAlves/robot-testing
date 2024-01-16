@@ -3,7 +3,7 @@ Library    SeleniumLibrary
 Library    String
 
 *** Variables ***
-${BROWSER}      chrome
+${BROWSER}      headlesschrome
 ${URL}          http://automationpractice.com
 
 *** Keywords ***
@@ -12,4 +12,5 @@ Abrir navegador
     Open Browser        about:blank   ${BROWSER}
 
 Fechar navegador
+    Capture Page Screenshot
     Close Browser
