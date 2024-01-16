@@ -1,0 +1,12 @@
+{
+    "creatingIssue": {
+        "title": "Teste Criação via api by [{userGit}]",
+        "body": "[{userGit}] criou essa issue via api",
+        "assignees": [
+            "[{userGit}]"
+        ],
+        "labels": [
+            "{label}"
+        ]
+    }
+}
