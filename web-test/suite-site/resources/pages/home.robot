@@ -12,17 +12,18 @@ ${TEXT_LAST_NAME}           Pagodinho
 
 *** Keywords ***
 #### Ações
-Adicionar o "${NOME}" e "${SOBRENOME}" nos campos
-    Digitar o primeiro nome no campo "First Name"
-    Digitar o sobrenome no campo"Last Name"
+Adicionar o nome e sobrenome nos campos
+    Digitar o primeiro nome no campo "First name"
+    Digitar o sobrenome no campo "Last name"
 
 
 Acessar a página home do site
     Go To               ${HOME_URL}
     Title Should Be     ${HOME_TITLE}
 
-Digitar o primeiro nome no campo "First Name"
-    Input Text          ${FIRST_NAME_INPUT}    "${TEXT_FIRST_NAME}"
+Digitar o primeiro nome no campo "${FIRST_NAME_INPUT}"
+    Input Text          ${FIRST_NAME_INPUT}    ${TEXT_FIRST_NAME}
 
-Digitar o sobrenome no campo"Last Name"
+Digitar o sobrenome no campo "${LAST_NAME_INPUT}"
     Input Text          ${LAST_NAME_INPUT}    ${TEXT_LAST_NAME}
+
